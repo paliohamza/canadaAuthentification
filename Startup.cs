@@ -12,7 +12,7 @@ namespace Authentif
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            LKConfiguration = configuration;
         }
 
         public IConfiguration Configuration { get; }
